@@ -1,10 +1,11 @@
 {
  "manifest_version": 2,
-
- "name": "No more stories", // Название расширения
- "version": "1.0", // Номер версии
- "description": "Got tired of VK stories?", // Описание расширения
-
+ "icons": { "16": "icon16.png",
+           "48": "icon48.png",
+          "128": "icon128.png" },
+ "name": "No more stories",
+ "version": "1.0",
+ "description": "Got tired of VK stories?",
  "content_scripts": [{
     "css": ["style.css"],
     "matches": ["https://vk.com/feed"]
